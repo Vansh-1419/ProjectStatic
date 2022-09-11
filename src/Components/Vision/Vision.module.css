@@ -1,0 +1,38 @@
+.vision {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vip {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  color: rgb(66, 64, 64);
+  border-bottom: 1.9px solid #4d8aa8;
+  padding-left: 1rem;
+  align-items: flex-end;
+  padding-top: 1.7rem;
+  padding-bottom: 3.7rem;
+}
+.vision p {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  max-width: 70rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+}
+.vision img {
+  border-radius: 47%;
+  height: 50%;
+}
+.vision div {
+  padding-top: 3rem;
+  max-width: 30rem;
+  width: 100%;
+}

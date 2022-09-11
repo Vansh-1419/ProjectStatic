@@ -1,0 +1,52 @@
+.heading {
+  text-decoration: underline;
+  font-size: 2.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2rem;
+  text-align: center;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mission h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.mission p {
+  text-align: justify;
+}
+.main {
+  text-align: center;
+  max-width: 80rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  height: fit-content;
+  position: relative;
+  background-color: rgb(255, 255, 236);
+  color: #4d8aa8;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+.mission ul {
+  text-align: left;
+  list-style: none;
+  margin-top: 2rem;
+}
+.mission ul li {
+  border: 2px dotted #4d8aa8;
+  margin-top: 0.5rem;
+  color: #4f5f70;
+  border-radius: 2vh;
+  padding: 1rem;
+}
+.contain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
